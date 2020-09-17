@@ -13,6 +13,9 @@
 		E8F2A741250A7D2200F258B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F2A73F250A7D2200F258B0 /* Main.storyboard */; };
 		E8F2A743250A7D2800F258B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F2A742250A7D2800F258B0 /* Assets.xcassets */; };
 		E8F2A746250A7D2800F258B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F2A744250A7D2800F258B0 /* LaunchScreen.storyboard */; };
+		E8F2A750250B674C00F258B0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2A74F250B674C00F258B0 /* GameScene.swift */; };
+		E8F2A752251226C600F258B0 /* cyanoptila-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8F2A751251226C600F258B0 /* cyanoptila-1.mp3 */; };
+		E8F2A7542512342B00F258B0 /* switch1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8F2A7532512342B00F258B0 /* switch1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E8F2A742250A7D2800F258B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8F2A745250A7D2800F258B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8F2A747250A7D2800F258B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F2A74F250B674C00F258B0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E8F2A751251226C600F258B0 /* cyanoptila-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cyanoptila-1.mp3"; sourceTree = "<group>"; };
+		E8F2A7532512342B00F258B0 /* switch1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = switch1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 				E8F2A739250A7D2200F258B0 /* AppDelegate.swift */,
 				E8F2A73B250A7D2200F258B0 /* SceneDelegate.swift */,
 				E8F2A73D250A7D2200F258B0 /* ViewController.swift */,
+				E8F2A74F250B674C00F258B0 /* GameScene.swift */,
 				E8F2A73F250A7D2200F258B0 /* Main.storyboard */,
 				E8F2A742250A7D2800F258B0 /* Assets.xcassets */,
 				E8F2A744250A7D2800F258B0 /* LaunchScreen.storyboard */,
+				E8F2A751251226C600F258B0 /* cyanoptila-1.mp3 */,
+				E8F2A7532512342B00F258B0 /* switch1.mp3 */,
 				E8F2A747250A7D2800F258B0 /* Info.plist */,
 			);
 			path = FlappyBird;
@@ -125,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F2A752251226C600F258B0 /* cyanoptila-1.mp3 in Resources */,
+				E8F2A7542512342B00F258B0 /* switch1.mp3 in Resources */,
 				E8F2A746250A7D2800F258B0 /* LaunchScreen.storyboard in Resources */,
 				E8F2A743250A7D2800F258B0 /* Assets.xcassets in Resources */,
 				E8F2A741250A7D2200F258B0 /* Main.storyboard in Resources */,
@@ -140,6 +151,7 @@
 			files = (
 				E8F2A73E250A7D2200F258B0 /* ViewController.swift in Sources */,
 				E8F2A73A250A7D2200F258B0 /* AppDelegate.swift in Sources */,
+				E8F2A750250B674C00F258B0 /* GameScene.swift in Sources */,
 				E8F2A73C250A7D2200F258B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takuma.arimura.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takuma.arimura.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
